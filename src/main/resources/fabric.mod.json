@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "bijismod",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "BijisMod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/bijismod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "fr.brangers.bijismod.BijisMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "bijismod.mixins.json"
   ],
 
   "depends": {
